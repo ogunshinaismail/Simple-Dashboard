@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Ticket</title>
+</head>
+<body>
+    <!-- SIDEBAR -->
+    <aside>
+        <div class="sidebar">
+            <h1 class="logo"><i class="lab la-envira"></i>Dashboard Kit</h1>
+
+            <ul class="links">
+                <li><a href="#"><i class="las la-chart-pie"></i>Overview</a></li>
+                <li class="active"><a href="#"><i class="las la-ticket-alt"></i>Tickets</a></li>
+                <li><a href="#"><i class="las la-lightbulb"></i>Ideas</a></li>
+                <li><a href="#"><i class="las la-users"></i>Contact</a></li>
+                <li><a href="#"><i class="las la-user"></i>Agents</a></li>
+                <li><a href="#"><i class="las la-newspaper"></i>Articles</a></li>
+                <div class="hr-sidebar"></div>
+                <li><a href="#"><i class="las la-cog"></i>Settings</a></li>
+                <li><a href="#"><i class="las la-certificate"></i>Subscription</a></li>
+            </ul>
+        </div>
+    </aside>
+
+    <!-- MAIN -->
+    <section class="main-content">
+        <!-- TOP -->
+        <div class="header">
+            <div class="header-left">
+                <!-- <i class="las la-bars"></i> -->
+                <h2>Tickets</h2>
+            </div>
+            <div class="header-right">
+                <div class="icon">
+                    <i class="las la-search"></i>
+                    <i class="las la-bell"></i>
+                </div>
+                <div class="line"></div>
+                <div class="profile">
+                    <p>John Doe</p>
+                    <div class="profile-circle">
+                        <img src="img/profile.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ticket">
+            <div class="ticket-top">
+                <h4>All tickets</h4>
+                <div class="ticket-top-right">
+                    <div class="ticket-top-icon">
+                        <i class="las la-sort-amount-up"></i>
+                        <p>Sort</p>
+                    </div>
+                    <div class="ticket-top-icon">
+                        <i class="las la-filter"></i>
+                        <p>Filter</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ticket-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Ticket details</th>
+                            <th>Customer name</th>
+                            <th>Date</th>
+                            <th>Priority</th>
+                            <th>  </th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr class="hrl">
+                            <td class="details">
+                                <img src="img/profile.jpg" alt="">
+                                <div>
+                                    <p class="message t-top">Contact Email not Linked</p>
+                                    <p class="day t-bottom">Updated 1 day ago</p>
+                                </div>
+                            </td>
+                            <td class="customer-name">
+                                <p class="name t-top">Tom Cruise</p>
+                                <p class="customer-date t-bottom">on 15.02.2022</p>
+                            </td>
+                            <td class="date-time">
+                                <p class="date t-top">Feb 16, 2022</p>
+                                <p class="time t-bottom">6:30 PM</p>
+                            </td>
+                            <td class="priority">
+                                <button class="high">HIGH</button>
+                                
+                            </td>
+                            <td class="menu"><i class="las la-ellipsis-v"></i></td>
+                        </tr>
+
+                        <tr>
+                            <td class="details">
+                                <img src="img/profile.jpg" alt="">
+                                <div>
+                                    <p class="message t-top">Adding images to featured post</p>
+                                    <p class="day t-bottom">Updated 1 day ago</p>
+                                </div>
+                            </td>
+                            <td class="customer-name">
+                                <p class="name t-top">Matt Damon</p>
+                                <p class="customer-date t-bottom">on 15.02.2022</p>
+                            </td>
+                            <td class="date-time">
+                                <p class="date t-top">Feb 16, 2022</p>
+                                <p class="time t-bottom">8:30 PM</p>
+                            </td>
+                            <td class="priority">
+                                <button class="low">LOW</button>
+                                
+                            </td>
+                            <td class="menu"><i class="las la-ellipsis-v"></i></td>
+                        </tr>
+
+                        <tr>
+                            <td class="details">
+                                <img src="img/profile.jpg" alt="">
+                                <div>
+                                    <p class="message t-top">When will I be charged this month?</p>
+                                    <p class="day t-bottom">Updated 1 day ago</p>
+                                </div>
+                            </td>
+                            <td class="customer-name">
+                                <p class="name t-top">Robert Downey</p>
+                                <p class="customer-date t-bottom">on 15.02.2022</p>
+                            </td>
+                            <td class="date-time">
+                                <p class="date t-top">Feb 16, 2022</p>
+                                <p class="time t-bottom">7:30 PM</p>
+                            </td>
+                            <td class="priority">
+                                <button class="high">HIGH</button>
+                                
+                            </td>
+                            <td class="menu"><i class="las la-ellipsis-v"></i></td>
+                        </tr>
+
+                        <tr>
+                            <td class="details">
+                                <img src="img/profile.jpg" alt="">
+                                <div>
+                                    <p class="message t-top">Payment not going through</p>
+                                    <p class="day t-bottom">Updated 1 day ago</p>
+                                </div>
+                            </td>
+                            <td class="customer-name">
+                                <p class="name t-top">Christian Bale</p>
+                                <p class="customer-date t-bottom">on 15.02.2022</p>
+                            </td>
+                            <td class="date-time">
+                                <p class="date t-top">Feb 16, 2022</p>
+                                <p class="time t-bottom">6:30 PM</p>
+                            </td>
+                            <td class="priority">
+                                <button class="normal">NORMAL</button>
+                                
+                            </td>
+                            <td class="menu"><i class="las la-ellipsis-v"></i></td>
+                        </tr>
+
+                        <tr>
+                            <td class="details">
+                                <img src="img/profile.jpg" alt="">
+                                <div>
+                                    <p class="message t-top">Unable to add replies</p>
+                                    <p class="day t-bottom">Updated 1 day ago</p>
+                                </div>
+                            </td>
+                            <td class="customer-name">
+                                <p class="name t-top">Henry Cavil</p>
+                                <p class="customer-date t-bottom">on 15.02.2022</p>
+                            </td>
+                            <td class="date-time">
+                                <p class="date t-top">Feb 16, 2022</p>
+                                <p class="time t-bottom">6:30 PM</p>
+                            </td>
+                            <td class="priority">
+                                <button class="high">HIGH</button>
+                                
+                            </td>
+                            <td class="menu"><i class="las la-ellipsis-v"></i></td>
+                        </tr>
+
+                        <tr>
+                            <td class="details">
+                                <img src="img/profile.jpg" alt="">
+                                <div>
+                                    <p class="message t-top">Downtime since last week</p>
+                                    <p class="day t-bottom">Updated 1 day ago</p>
+                                </div>
+                            </td>
+                            <td class="customer-name">
+                                <p class="name t-top">Chris Evans</p>
+                                <p class="customer-date t-bottom">on 15.02.2022</p>
+                            </td>
+                            <td class="date-time">
+                                <p class="date t-top">Feb 16, 2022</p>
+                                <p class="time t-bottom">6:30 PM</p>
+                            </td>
+                            <td class="priority">
+                                <button class="normal">NORMAL</button>
+                                
+                            </td>
+                            <td class="menu"><i class="las la-ellipsis-v"></i></td>
+                        </tr>
+
+                        <tr>
+                            <td class="details">
+                                <img src="img/profile.jpg" alt="">
+                                <div>
+                                    <p class="message t-top">Referal Bonus</p>
+                                    <p class="day t-bottom">Updated 1 day ago</p>
+                                </div>
+                            </td>
+                            <td class="customer-name">
+                                <p class="name t-top">Sam Smith</p>
+                                <p class="customer-date t-bottom">on 15.02.2022</p>
+                            </td>
+                            <td class="date-time">
+                                <p class="date t-top">Feb 16, 2022</p>
+                                <p class="time t-bottom">6:30 PM</p>
+                            </td>
+                            <td class="priority">
+                                <button class="low">LOW</button>
+                                
+                            </td>
+                            <td class="menu"><i class="las la-ellipsis-v"></i></td>
+                        </tr>
+
+                        <tr>
+                            <td class="details">
+                                <img src="img/profile.jpg" alt="">
+                                <div>
+                                    <p class="message t-top">How do I change my password?</p>
+                                    <p class="day t-bottom">Updated 1 day ago</p>
+                                </div>
+                            </td>
+                            <td class="customer-name">
+                                <p class="name t-top">Steve Rogers</p>
+                                <p class="customer-date t-bottom">on 15.02.2022</p>
+                            </td>
+                            <td class="date-time">
+                                <p class="date t-top">Feb 16, 2022</p>
+                                <p class="time t-bottom">6:30 PM</p>
+                            </td>
+                            <td class="priority">
+                                <button class="normal">NORMAL</button>
+                                
+                            </td>
+                            <td class="menu"><i class="las la-ellipsis-v"></i></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="ticket-table-bottom">
+                    <div class="rows-per-page">
+                        <label for="">Rows per page:</label>
+                        <select name="num" id="num">
+                            <option value="eight">8</option>
+                            <option value="nine">9</option>
+                            <option value="ten">10</option>
+                        </select>
+                    </div>
+                    <div class="pages">
+                        <p>1 - 8 of 1250</p>
+                        <button class="prev-btn"><i class="las la-angle-left"></i></button>
+                        <button class="next-btn"><i class="las la-angle-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
